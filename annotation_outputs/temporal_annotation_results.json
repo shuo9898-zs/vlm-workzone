@@ -1,0 +1,1063 @@
+{
+  "config": {
+    "data_root": "D:\\User_data\\M_Gaze_screen\\Journal_2_data",
+    "model_dir": "D:\\models\\Qwen2.5-VL-3B-Instruct",
+    "participants": [
+      "P11"
+    ],
+    "scenarios": [
+      "S3_rainy"
+    ],
+    "context_frames": 10,
+    "fps": 10,
+    "stride": 50,
+    "max_new_tokens": 128,
+    "image_size": 336
+  },
+  "timing": {
+    "freedom_seconds": 539.1840085983276,
+    "structured_seconds": 328.5850455760956
+  },
+  "results": [
+    {
+      "participant": "P11",
+      "scenario": "S3_rainy",
+      "target_frame_idx": 9,
+      "target_timestamp": 1765561094.38,
+      "context_timestamps": [
+        1765561093.48,
+        1765561093.582,
+        1765561093.681,
+        1765561093.782,
+        1765561093.881,
+        1765561093.98,
+        1765561094.08,
+        1765561094.18,
+        1765561094.28,
+        1765561094.38
+      ],
+      "freedom_response": "1. **Summary of Events Over the Past 0.9 Seconds:**\n   - The vehicle has been moving forward on a straight road for the past 0.9 seconds.\n   - There have been no significant changes in the road conditions or traffic patterns observed in these frames.\n   - The vehicle appears to be maintaining a steady speed, as indicated by the consistent distance between the vehicle and the objects ahead.\n\n2. **Ego Vehicle's Action at the Current Frame:**\n   - The ego vehicle is currently traveling at a high speed, as indicated by the \"High\" label in the top left corner of the image.",
+      "structured_response": "{\n  \"control_action\": \"go straight\",\n  \"turn_action\": \"none\",\n  \"lane_action\": \"none\",\n  \"motion_trend\": \"accelerating\",\n  \"reasoning\": \"The vehicle appears to be accelerating as it approaches the intersection, indicated by the slight blur of the surroundings and the consistent speed displayed on the screen.\"\n}"
+    },
+    {
+      "participant": "P11",
+      "scenario": "S3_rainy",
+      "target_frame_idx": 59,
+      "target_timestamp": 1765561099.38,
+      "context_timestamps": [
+        1765561098.48,
+        1765561098.58,
+        1765561098.68,
+        1765561098.78,
+        1765561098.88,
+        1765561098.981,
+        1765561099.08,
+        1765561099.181,
+        1765561099.281,
+        1765561099.38
+      ],
+      "freedom_response": "1. **Summary of Past 0.9 Seconds:**\n   - Over the past 0.9 seconds, the vehicle has been traveling straight down a street with moderate traffic. The road appears to be wet, as indicated by the reflections on the pavement and the presence of water puddles. The surrounding environment includes buildings on both sides of the street, and there are no significant changes in the road markings or lane dividers. The vehicle maintains a steady speed, as evidenced by the consistent speedometer reading of \"0 km/h.\"\n\n2. **Ego Vehicle's Action at Current Frame:**\n   - At the current frame,",
+      "structured_response": "{\n  \"control_action\": \"go straight\",\n  \"turn_action\": \"none\",\n  \"lane_action\": \"none\",\n  \"motion_trend\": \"constant speed\",\n  \"reasoning\": \"The vehicle appears to be maintaining a steady speed and direction throughout the sequence, indicating it is going straight without any noticeable acceleration or deceleration.\"\n}"
+    },
+    {
+      "participant": "P11",
+      "scenario": "S3_rainy",
+      "target_frame_idx": 109,
+      "target_timestamp": 1765561104.381,
+      "context_timestamps": [
+        1765561103.48,
+        1765561103.583,
+        1765561103.681,
+        1765561103.78,
+        1765561103.88,
+        1765561103.98,
+        1765561104.08,
+        1765561104.181,
+        1765561104.281,
+        1765561104.381
+      ],
+      "freedom_response": "1. **Summary of Events Over the Past 0.9 Seconds:**\n   - The vehicle has been traveling straight on a wet road, as indicated by the consistent position of the road markings and the slight change in the road surface texture.\n   - The road appears to be wet, which could affect traction and braking distances.\n   - There are no visible obstacles or pedestrians in the immediate vicinity, suggesting a relatively safe driving environment.\n\n2. **Ego Vehicle's Action at the Current Frame:**\n   - The vehicle is maintaining a steady speed, as indicated by the constant display of \"high\" speed in the HUD (Heads",
+      "structured_response": "{\n  \"control_action\": \"go straight\",\n  \"turn_action\": \"none\",\n  \"lane_action\": \"none\",\n  \"motion_trend\": \"accelerating\",\n  \"reasoning\": \"The vehicle appears to be accelerating as indicated by the increasing distance displayed on the screen. There are no signs of deceleration or stopping.\"\n}"
+    },
+    {
+      "participant": "P11",
+      "scenario": "S3_rainy",
+      "target_frame_idx": 159,
+      "target_timestamp": 1765561109.383,
+      "context_timestamps": [
+        1765561108.48,
+        1765561108.581,
+        1765561108.68,
+        1765561108.781,
+        1765561108.883,
+        1765561108.98,
+        1765561109.08,
+        1765561109.183,
+        1765561109.28,
+        1765561109.383
+      ],
+      "freedom_response": "1. **Summary of Events Over the Past 0.9 Seconds:**\n   - The vehicle has been traveling on a straight road for the past 0.9 seconds.\n   - The road appears to be wet or covered with snow, as indicated by the reflective surface and the presence of snow patches.\n   - There are no significant changes in the road conditions or traffic, suggesting steady driving without any abrupt maneuvers.\n\n2. **Ego Vehicle's Action at the Current Frame:**\n   - The vehicle is maintaining a consistent speed and direction, as indicated by the constant distance marker (9 meters) displayed on the screen.\n   -",
+      "structured_response": "{\n  \"control_action\": \"constant speed\",\n  \"turn_action\": \"none\",\n  \"lane_action\": \"none\",\n  \"motion_trend\": \"decelerating\",\n  \"reasoning\": \"The vehicle appears to be decelerating as indicated by the decreasing distance to the next intersection and the consistent speed display.\"\n}"
+    },
+    {
+      "participant": "P11",
+      "scenario": "S3_rainy",
+      "target_frame_idx": 209,
+      "target_timestamp": 1765561114.381,
+      "context_timestamps": [
+        1765561113.481,
+        1765561113.581,
+        1765561113.681,
+        1765561113.782,
+        1765561113.881,
+        1765561113.98,
+        1765561114.081,
+        1765561114.182,
+        1765561114.281,
+        1765561114.381
+      ],
+      "freedom_response": "1. **Summary of Events Over the Past 0.9 Seconds:**\n   - The vehicle has been traveling straight on a foggy road for the past 0.9 seconds.\n   - There have been no significant changes in the road conditions or traffic.\n   - The vehicle appears to be maintaining a steady speed, as indicated by the consistent distance marker (11-13 meters).\n\n2. **Ego Vehicle's Action at the Current Frame:**\n   - The vehicle is currently traveling straight ahead on the road.\n\n3. **Predicted Ego Vehicle's Next Action:**\n   - Given the steady straight-ahead trajectory",
+      "structured_response": "{\n  \"control_action\": \"go straight\",\n  \"turn_action\": \"none\",\n  \"lane_action\": \"none\",\n  \"motion_trend\": \"accelerating\",\n  \"reasoning\": \"The vehicle appears to be accelerating as indicated by the increasing speed displayed on the HUD. There are no signs of deceleration or stopping, and the vehicle maintains a straight path along the road.\"\n}"
+    },
+    {
+      "participant": "P11",
+      "scenario": "S3_rainy",
+      "target_frame_idx": 259,
+      "target_timestamp": 1765561119.381,
+      "context_timestamps": [
+        1765561118.484,
+        1765561118.581,
+        1765561118.68,
+        1765561118.78,
+        1765561118.881,
+        1765561118.984,
+        1765561119.08,
+        1765561119.18,
+        1765561119.28,
+        1765561119.381
+      ],
+      "freedom_response": "### 1. Summary of Events Over the Past 0.9 Seconds:\n- **Motion Trend:** The vehicle appears to be maintaining a steady speed on the road. There is no significant change in the vehicle's position or orientation relative to the previous frames.\n- **Road Conditions:** The road is clear with visible lane markings and a smooth surface. There are no signs of debris, potholes, or other obstructions.\n- **Notable Events:** No significant events such as lane changes, turns, or sudden stops are observed. The vehicle seems to be following the road ahead without any unusual behavior.\n\n### 2. Ego",
+      "structured_response": "{\n  \"control_action\": \"go straight\",\n  \"turn_action\": \"none\",\n  \"lane_action\": \"none\",\n  \"motion_trend\": \"accelerating\",\n  \"reasoning\": \"The vehicle appears to be accelerating as indicated by the increasing speed displayed in the current frame.\"\n}"
+    },
+    {
+      "participant": "P11",
+      "scenario": "S3_rainy",
+      "target_frame_idx": 309,
+      "target_timestamp": 1765561124.38,
+      "context_timestamps": [
+        1765561123.481,
+        1765561123.581,
+        1765561123.681,
+        1765561123.78,
+        1765561123.88,
+        1765561123.98,
+        1765561124.081,
+        1765561124.181,
+        1765561124.28,
+        1765561124.38
+      ],
+      "freedom_response": "1. **Summary of Events Over the Past 0.9 Seconds:**\n   - The vehicle has been driving on a wet road for the past 0.9 seconds.\n   - The road appears to be slippery, as indicated by the wet surface and the presence of water droplets on the windshield.\n   - There are no significant changes in the road conditions or traffic patterns observed in these frames.\n\n2. **Ego Vehicle's Action at the Current Frame:**\n   - The vehicle is maintaining a steady speed and following the lane markings on the road.\n   - The steering wheel is centered, indicating that the driver is keeping the",
+      "structured_response": "{\n  \"control_action\": \"go straight\",\n  \"turn_action\": \"none\",\n  \"lane_action\": \"none\",\n  \"motion_trend\": \"accelerating\",\n  \"reasoning\": \"The vehicle appears to be accelerating as it moves forward along the road. There are no signs of deceleration or stopping, and the vehicle maintains a consistent speed throughout the sequence.\"\n}"
+    },
+    {
+      "participant": "P11",
+      "scenario": "S3_rainy",
+      "target_frame_idx": 359,
+      "target_timestamp": 1765561129.382,
+      "context_timestamps": [
+        1765561128.48,
+        1765561128.58,
+        1765561128.681,
+        1765561128.784,
+        1765561128.88,
+        1765561128.98,
+        1765561129.081,
+        1765561129.181,
+        1765561129.28,
+        1765561129.382
+      ],
+      "freedom_response": "1. **Summary of Events Over the Past 0.9 Seconds:**\n   - The vehicle has been traveling on a wet road, as indicated by the visible water droplets on the windshield.\n   - The road appears to be curving slightly to the left, as evidenced by the slight change in the road markings and the position of the vehicle relative to the road lines.\n   - The weather conditions seem to be foggy or misty, as suggested by the overall dim lighting and the visibility of the road ahead.\n\n2. **Ego Vehicle's Action at the Current Frame:**\n   - The vehicle is maintaining a steady speed",
+      "structured_response": "{\n  \"control_action\": \"go straight\",\n  \"turn_action\": \"none\",\n  \"lane_action\": \"none\",\n  \"motion_trend\": \"accelerating\",\n  \"reasoning\": \"The vehicle appears to be accelerating as it moves forward along the road. There are no signs of deceleration or stopping, and the vehicle maintains a consistent speed throughout the sequence.\"\n}"
+    },
+    {
+      "participant": "P11",
+      "scenario": "S3_rainy",
+      "target_frame_idx": 409,
+      "target_timestamp": 1765561134.38,
+      "context_timestamps": [
+        1765561133.483,
+        1765561133.58,
+        1765561133.681,
+        1765561133.78,
+        1765561133.88,
+        1765561133.98,
+        1765561134.081,
+        1765561134.181,
+        1765561134.28,
+        1765561134.38
+      ],
+      "freedom_response": "1. **Summary of Events Over the Past 0.9 Seconds:**\n   - The vehicle has been moving steadily on a wet road, as indicated by the consistent speed and the presence of water droplets on the windshield.\n   - The road appears to be wet, which could affect traction and visibility.\n   - There are no significant changes in the environment or traffic, suggesting a smooth and continuous drive.\n\n2. **Ego Vehicle's Action at the Current Frame:**\n   - The vehicle is maintaining a steady speed, as evidenced by the consistent speed display on the HUD (Heads-Up Display).\n\n3. **Predicted E",
+      "structured_response": "{\n  \"control_action\": \"move slowly\",\n  \"turn_action\": \"none\",\n  \"lane_action\": \"none\",\n  \"motion_trend\": \"decelerating\",\n  \"reasoning\": \"The vehicle appears to be slowing down as indicated by the decreasing distance to the road markings and the slight decrease in speedometer reading.\"\n}"
+    },
+    {
+      "participant": "P11",
+      "scenario": "S3_rainy",
+      "target_frame_idx": 459,
+      "target_timestamp": 1765561139.38,
+      "context_timestamps": [
+        1765561138.48,
+        1765561138.581,
+        1765561138.681,
+        1765561138.781,
+        1765561138.88,
+        1765561138.981,
+        1765561139.08,
+        1765561139.18,
+        1765561139.28,
+        1765561139.38
+      ],
+      "freedom_response": "1. **Summary of Events Over the Past 0.9 Seconds:**\n   - The vehicle has been moving forward on a straight road with moderate speed.\n   - The road appears to be wet or icy, as indicated by the reflective surface and the presence of snow or ice patches.\n   - There are no significant changes in the road conditions or traffic patterns observed in these frames.\n\n2. **Ego Vehicle's Action at the Current Frame:**\n   - The vehicle is maintaining a steady speed and following the road ahead without any abrupt maneuvers or lane changes.\n\n3. **Predicted Ego Vehicle's Next Action:**\n   -",
+      "structured_response": "{\n  \"control_action\": \"go straight\",\n  \"turn_action\": \"none\",\n  \"lane_action\": \"none\",\n  \"motion_trend\": \"accelerating\",\n  \"reasoning\": \"The vehicle appears to be accelerating as it moves forward along the road, indicated by the increasing speed displayed on the screen.\"\n}"
+    },
+    {
+      "participant": "P11",
+      "scenario": "S3_rainy",
+      "target_frame_idx": 509,
+      "target_timestamp": 1765561144.381,
+      "context_timestamps": [
+        1765561143.481,
+        1765561143.583,
+        1765561143.681,
+        1765561143.781,
+        1765561143.881,
+        1765561143.981,
+        1765561144.08,
+        1765561144.181,
+        1765561144.281,
+        1765561144.381
+      ],
+      "freedom_response": "1. **Summary of Events Over the Past 0.9 Seconds:**\n   - The vehicle has been traveling on a straight road for the past 0.9 seconds.\n   - The road appears to be wet or slippery, as indicated by the presence of water on the road surface.\n   - There are no significant changes in the road conditions or any other notable events observed in these frames.\n\n2. **Ego Vehicle's Action at the Current Frame:**\n   - The vehicle is maintaining a steady speed and continues to drive straight ahead on the road.\n\n3. **Predicted Ego Vehicle's Next Action:**\n   -",
+      "structured_response": "{\n  \"control_action\": \"constant speed\",\n  \"turn_action\": \"none\",\n  \"lane_action\": \"none\",\n  \"motion_trend\": \"accelerating\",\n  \"reasoning\": \"The vehicle appears to be accelerating as indicated by the increasing speed reading from 15 to 19 km/h over the last 0.9 seconds.\"\n}"
+    },
+    {
+      "participant": "P11",
+      "scenario": "S3_rainy",
+      "target_frame_idx": 559,
+      "target_timestamp": 1765561149.381,
+      "context_timestamps": [
+        1765561148.481,
+        1765561148.581,
+        1765561148.684,
+        1765561148.781,
+        1765561148.883,
+        1765561148.983,
+        1765561149.08,
+        1765561149.181,
+        1765561149.282,
+        1765561149.381
+      ],
+      "freedom_response": "1. **Summary of Events Over the Past 0.9 Seconds:**\n   - The vehicle has been traveling on a straight road for the past 0.9 seconds.\n   - The road appears to be wet or slippery, as indicated by the reflection and the slight shimmering effect on the surface.\n   - There are no significant changes in the road conditions or any other notable events observed in these frames.\n\n2. **Ego Vehicle's Action at the Current Frame:**\n   - The vehicle is maintaining a steady speed, as indicated by the consistent speed display (19 km/h).\n\n3. **Predicted Ego Vehicle",
+      "structured_response": "{\n  \"control_action\": \"constant speed\",\n  \"turn_action\": \"none\",\n  \"lane_action\": \"none\",\n  \"motion_trend\": \"accelerating\",\n  \"reasoning\": \"The vehicle appears to be accelerating as indicated by the increasing speed displayed on the screen. There are no signs of deceleration or stopping.\"\n}"
+    },
+    {
+      "participant": "P11",
+      "scenario": "S3_rainy",
+      "target_frame_idx": 609,
+      "target_timestamp": 1765561154.381,
+      "context_timestamps": [
+        1765561153.48,
+        1765561153.58,
+        1765561153.681,
+        1765561153.781,
+        1765561153.88,
+        1765561153.98,
+        1765561154.08,
+        1765561154.181,
+        1765561154.28,
+        1765561154.381
+      ],
+      "freedom_response": "1. **Summary of Past 0.9 Seconds:**\n   - Over the past 0.9 seconds, the vehicle has been traveling straight on a road with no significant changes in speed or direction. The road appears clear with no visible obstacles or pedestrians. The environment seems relatively calm with no signs of adverse weather conditions such as rain or fog.\n\n2. **Ego Vehicle's Action at Current Frame:**\n   - At the current frame, the vehicle is maintaining a steady speed and heading straight ahead. There are no immediate indications of any sudden movements or changes in the vehicle's behavior.\n\n3. **Predicted Next Action:",
+      "structured_response": "{\n  \"control_action\": \"go straight\",\n  \"turn_action\": \"none\",\n  \"lane_action\": \"none\",\n  \"motion_trend\": \"accelerating\",\n  \"reasoning\": \"The vehicle appears to be accelerating as indicated by the decreasing distance to the next intersection in each frame.\"\n}"
+    },
+    {
+      "participant": "P11",
+      "scenario": "S3_rainy",
+      "target_frame_idx": 659,
+      "target_timestamp": 1765561159.383,
+      "context_timestamps": [
+        1765561158.481,
+        1765561158.581,
+        1765561158.681,
+        1765561158.78,
+        1765561158.883,
+        1765561158.98,
+        1765561159.08,
+        1765561159.18,
+        1765561159.281,
+        1765561159.383
+      ],
+      "freedom_response": "1. **Summary of Events Over the Past 0.9 Seconds:**\n   - The vehicle has been traveling on a snow-covered road for the past 0.9 seconds.\n   - The road appears to be straight and well-marked with white lines.\n   - There are no visible obstacles or other vehicles in the immediate vicinity.\n   - The weather conditions seem to be consistent with snowfall, as there are patches of snow on the road and surrounding areas.\n\n2. **Ego Vehicle's Action at the Current Frame:**\n   - The vehicle is maintaining a steady speed, indicated by the speedometer reading \"13 km",
+      "structured_response": "{\n  \"control_action\": \"go straight\",\n  \"turn_action\": \"none\",\n  \"lane_action\": \"none\",\n  \"motion_trend\": \"accelerating\",\n  \"reasoning\": \"The vehicle appears to be accelerating as it moves forward along the road, indicated by the increasing speed displayed on the HUD.\"\n}"
+    },
+    {
+      "participant": "P11",
+      "scenario": "S3_rainy",
+      "target_frame_idx": 709,
+      "target_timestamp": 1765561164.385,
+      "context_timestamps": [
+        1765561163.48,
+        1765561163.58,
+        1765561163.681,
+        1765561163.781,
+        1765561163.88,
+        1765561163.98,
+        1765561164.081,
+        1765561164.18,
+        1765561164.28,
+        1765561164.385
+      ],
+      "freedom_response": "1. **Summary of Past 0.9 Seconds:**\n   - Over the past 0.9 seconds, the vehicle has been traveling on a straight road with moderate speed, indicated by the consistent distance marker \"22 km\" displayed on the screen. The road appears to be well-paved and clear of any significant obstacles or debris.\n   - The environment consists of a forested area with trees lining both sides of the road. The lighting suggests it might be early morning or late afternoon, as there are no strong shadows.\n   - There have been slight variations in the vehicle's position relative to the road markings, indicating minor",
+      "structured_response": "{\n  \"control_action\": \"go straight\",\n  \"turn_action\": \"none\",\n  \"lane_action\": \"none\",\n  \"motion_trend\": \"accelerating\",\n  \"reasoning\": \"The vehicle appears to be accelerating as it moves forward along the road, indicated by the increasing distance markers and the slight increase in speed.\"\n}"
+    },
+    {
+      "participant": "P11",
+      "scenario": "S3_rainy",
+      "target_frame_idx": 759,
+      "target_timestamp": 1765561169.38,
+      "context_timestamps": [
+        1765561168.48,
+        1765561168.58,
+        1765561168.68,
+        1765561168.783,
+        1765561168.883,
+        1765561168.981,
+        1765561169.08,
+        1765561169.181,
+        1765561169.285,
+        1765561169.38
+      ],
+      "freedom_response": "1. **Summary of Past 0.9 Seconds:**\n   - Over the past 0.9 seconds, the vehicle has been traveling straight on a road with moderate visibility due to fog or mist. The road appears to be wet, as indicated by the reflections and the presence of water on the road surface. The vehicle maintains a consistent speed, as evidenced by the decreasing distance markers (from 7 meters to 4 meters) in each frame. The road is bordered by guardrails on both sides, and there are trees and buildings visible along the sides of the road.\n\n2. **Ego Vehicle's Action at Current Frame",
+      "structured_response": "{\n  \"control_action\": \"go straight\",\n  \"turn_action\": \"none\",\n  \"lane_action\": \"none\",\n  \"motion_trend\": \"accelerating\",\n  \"reasoning\": \"The vehicle appears to be accelerating as it moves forward along the road. There are no signs of deceleration or stopping, and the vehicle maintains a consistent speed throughout the sequence.\"\n}"
+    },
+    {
+      "participant": "P11",
+      "scenario": "S3_rainy",
+      "target_frame_idx": 809,
+      "target_timestamp": 1765561174.38,
+      "context_timestamps": [
+        1765561173.48,
+        1765561173.58,
+        1765561173.68,
+        1765561173.781,
+        1765561173.88,
+        1765561173.981,
+        1765561174.084,
+        1765561174.18,
+        1765561174.283,
+        1765561174.38
+      ],
+      "freedom_response": "1. **Summary of Events Over the Past 0.9 Seconds:**\n   - The vehicle has been traveling straight on a road with no significant changes in speed or direction.\n   - The road appears to be clear with no visible obstacles or pedestrians.\n   - The weather seems to be overcast, as there are no distinct shadows or bright spots.\n\n2. **Ego Vehicle's Action at the Current Frame:**\n   - The vehicle is maintaining a steady speed and heading straight ahead on the road.\n\n3. **Predicted Ego Vehicle's Next Action:**\n   - Given the consistent behavior observed in the previous frames, it",
+      "structured_response": "{\n  \"control_action\": \"constant speed\",\n  \"turn_action\": \"none\",\n  \"lane_action\": \"none\",\n  \"motion_trend\": \"decelerating\",\n  \"reasoning\": \"The vehicle appears to be slowing down as indicated by the decreasing distance to the traffic light and the slight decrease in speed.\"\n}"
+    },
+    {
+      "participant": "P11",
+      "scenario": "S3_rainy",
+      "target_frame_idx": 859,
+      "target_timestamp": 1765561179.38,
+      "context_timestamps": [
+        1765561178.483,
+        1765561178.58,
+        1765561178.68,
+        1765561178.78,
+        1765561178.88,
+        1765561178.98,
+        1765561179.08,
+        1765561179.18,
+        1765561179.281,
+        1765561179.38
+      ],
+      "freedom_response": "1. **Summary of Past 0.9 Seconds:**\n   - Over the past 0.9 seconds, the vehicle has been driving straight on a road with moderate traffic. The road appears to be wet or slippery, as indicated by the presence of water on the road surface. There are no significant changes in the road conditions or traffic patterns observed within this period.\n\n2. **Ego Vehicle's Action at Current Frame:**\n   - At the current frame, the vehicle is maintaining a steady speed and continues to drive straight ahead. The speedometer shows a consistent speed of approximately 21 km/h.\n\n3. **Predict",
+      "structured_response": "{\n  \"control_action\": \"go straight\",\n  \"turn_action\": \"none\",\n  \"lane_action\": \"none\",\n  \"motion_trend\": \"accelerating\",\n  \"reasoning\": \"The vehicle is consistently moving forward with increasing speed as indicated by the increasing speedometer readings and the slight changes in the road markings.\"\n}"
+    },
+    {
+      "participant": "P11",
+      "scenario": "S3_rainy",
+      "target_frame_idx": 909,
+      "target_timestamp": 1765561184.38,
+      "context_timestamps": [
+        1765561183.483,
+        1765561183.581,
+        1765561183.68,
+        1765561183.783,
+        1765561183.881,
+        1765561183.984,
+        1765561184.081,
+        1765561184.18,
+        1765561184.28,
+        1765561184.38
+      ],
+      "freedom_response": "1. **Summary of Events Over the Past 0.9 Seconds:**\n   - The vehicle has been traveling straight on a foggy road for the past 0.9 seconds.\n   - The road appears to be wet or covered in mist, which could affect visibility and traction.\n   - There are no significant changes in the road markings or lane positions observed in these frames.\n\n2. **Ego Vehicle's Action at the Current Frame:**\n   - The vehicle is maintaining a steady course without any noticeable acceleration or deceleration.\n   - The speedometer indicates a consistent speed of approximately 22 km/h.\n\n3.",
+      "structured_response": "{\n  \"control_action\": \"go straight\",\n  \"turn_action\": \"none\",\n  \"lane_action\": \"none\",\n  \"motion_trend\": \"accelerating\",\n  \"reasoning\": \"The vehicle appears to be accelerating as indicated by the increasing speed reading from 18 km/h to 22 km/h over the last 10 frames.\"\n}"
+    },
+    {
+      "participant": "P11",
+      "scenario": "S3_rainy",
+      "target_frame_idx": 959,
+      "target_timestamp": 1765561189.381,
+      "context_timestamps": [
+        1765561188.481,
+        1765561188.585,
+        1765561188.68,
+        1765561188.781,
+        1765561188.881,
+        1765561188.981,
+        1765561189.081,
+        1765561189.18,
+        1765561189.28,
+        1765561189.381
+      ],
+      "freedom_response": "1. **Summary of Events Over the Past 0.9 Seconds:**\n   - The vehicle has been driving on a wet road for the past 0.9 seconds.\n   - The road appears to be slippery, as indicated by the wet surface and the presence of water droplets on the windshield.\n   - There are no significant changes in the road conditions or any notable events occurring within this period.\n\n2. **Ego Vehicle's Action at the Current Frame:**\n   - The vehicle is maintaining a steady speed and direction, consistent with the previous frames.\n   - The vehicle is not performing any abrupt maneuvers such as turning sharply",
+      "structured_response": "{\n  \"control_action\": \"go straight\",\n  \"turn_action\": \"none\",\n  \"lane_action\": \"none\",\n  \"motion_trend\": \"accelerating\",\n  \"reasoning\": \"The vehicle appears to be accelerating as it moves forward along the road. There are no signs of deceleration or stopping, and the vehicle maintains a consistent speed throughout the sequence.\"\n}"
+    },
+    {
+      "participant": "P11",
+      "scenario": "S3_rainy",
+      "target_frame_idx": 1009,
+      "target_timestamp": 1765561194.38,
+      "context_timestamps": [
+        1765561193.48,
+        1765561193.58,
+        1765561193.68,
+        1765561193.781,
+        1765561193.881,
+        1765561193.985,
+        1765561194.08,
+        1765561194.18,
+        1765561194.283,
+        1765561194.38
+      ],
+      "freedom_response": "1. **Summary of Past 0.9 Seconds:**\n   - Over the past 0.9 seconds, the vehicle has been driving on a wet road with moderate rain. The road appears to be slightly slippery due to the rain, which could affect traction and braking distances. The vehicle maintains a consistent speed, as indicated by the speedometer reading decreasing from 29 mph to 26 mph. The road is lined with streetlights and trees, suggesting an urban or suburban setting. There are no significant changes in the road markings or lane positions observed.\n\n2. **Ego Vehicle's Action at Current Frame:**",
+      "structured_response": "{\n  \"control_action\": \"move slowly\",\n  \"turn_action\": \"none\",\n  \"lane_action\": \"none\",\n  \"motion_trend\": \"decelerating\",\n  \"reasoning\": \"The vehicle appears to be slowing down as indicated by the decreasing speedometer reading and the consistent position of the vehicle on the road.\"\n}"
+    },
+    {
+      "participant": "P11",
+      "scenario": "S3_rainy",
+      "target_frame_idx": 1059,
+      "target_timestamp": 1765561199.381,
+      "context_timestamps": [
+        1765561198.481,
+        1765561198.58,
+        1765561198.681,
+        1765561198.781,
+        1765561198.88,
+        1765561198.98,
+        1765561199.08,
+        1765561199.181,
+        1765561199.281,
+        1765561199.381
+      ],
+      "freedom_response": "1. **Summary of Past 0.9 Seconds:**\n   - Over the past 0.9 seconds, the vehicle has been driving on a foggy road with moderate visibility. The road appears to be wet, as indicated by the reflections and the overall misty atmosphere. There are no significant changes in the road conditions or traffic patterns observed in these frames.\n\n2. **Ego Vehicle's Action at Current Frame:**\n   - At the current frame, the vehicle is maintaining a steady speed of 30 km/h, as indicated by the speedometer display. The vehicle is centered on the road, suggesting that it is",
+      "structured_response": "{\n  \"control_action\": \"go straight\",\n  \"turn_action\": \"none\",\n  \"lane_action\": \"none\",\n  \"motion_trend\": \"accelerating\",\n  \"reasoning\": \"The vehicle appears to be accelerating as it moves forward along the road. There are no signs of deceleration or stopping, and the vehicle maintains a consistent speed throughout the sequence.\"\n}"
+    },
+    {
+      "participant": "P11",
+      "scenario": "S3_rainy",
+      "target_frame_idx": 1109,
+      "target_timestamp": 1765561204.38,
+      "context_timestamps": [
+        1765561203.485,
+        1765561203.58,
+        1765561203.683,
+        1765561203.784,
+        1765561203.88,
+        1765561203.983,
+        1765561204.08,
+        1765561204.183,
+        1765561204.281,
+        1765561204.38
+      ],
+      "freedom_response": "1. **Summary of Past 0.9 Seconds:**\n   - Over the past 0.9 seconds, the vehicle has been driving on a wet road with moderate rain. The road appears to be wet, as evidenced by the reflections and the overall appearance of the road surface. There are no visible obstacles or pedestrians in the immediate vicinity. The vehicle maintains a steady speed, indicated by the consistent distance marker \"2 km\" displayed on the screen.\n\n2. **Ego Vehicle's Action at Current Frame:**\n   - At the current frame, the vehicle continues to drive straight ahead on the wet road. The speedometer shows",
+      "structured_response": "{\n  \"control_action\": \"go straight\",\n  \"turn_action\": \"none\",\n  \"lane_action\": \"none\",\n  \"motion_trend\": \"accelerating\",\n  \"reasoning\": \"The vehicle appears to be accelerating as it moves forward along the road, indicated by the consistent speed increase in the frames.\"\n}"
+    },
+    {
+      "participant": "P11",
+      "scenario": "S3_rainy",
+      "target_frame_idx": 1159,
+      "target_timestamp": 1765561209.383,
+      "context_timestamps": [
+        1765561208.48,
+        1765561208.581,
+        1765561208.686,
+        1765561208.781,
+        1765561208.881,
+        1765561208.98,
+        1765561209.081,
+        1765561209.18,
+        1765561209.28,
+        1765561209.383
+      ],
+      "freedom_response": "1. **Summary of Events Over the Past 0.9 Seconds:**\n   - The vehicle has been traveling straight on a road with no significant changes in speed or direction.\n   - The road appears to be clear with no visible obstacles or pedestrians.\n   - The traffic light ahead shows a green signal, indicating that it is safe to proceed.\n\n2. **Ego Vehicle's Action at the Current Frame:**\n   - The vehicle is currently stationary at a red traffic light.\n\n3. **Predicted Ego Vehicle's Next Action:**\n   - The vehicle is likely to stop at the red traffic light and wait for the signal",
+      "structured_response": "{\n  \"control_action\": \"go straight\",\n  \"turn_action\": \"none\",\n  \"lane_action\": \"none\",\n  \"motion_trend\": \"accelerating\",\n  \"reasoning\": \"The vehicle appears to be accelerating as indicated by the increasing speed displayed on the HUD. There are no signs of deceleration or stopping. The vehicle maintains a straight path without any indication of turning or lane changes.\"\n}"
+    },
+    {
+      "participant": "P11",
+      "scenario": "S3_rainy",
+      "target_frame_idx": 1209,
+      "target_timestamp": 1765561214.381,
+      "context_timestamps": [
+        1765561213.482,
+        1765561213.585,
+        1765561213.681,
+        1765561213.78,
+        1765561213.881,
+        1765561213.981,
+        1765561214.081,
+        1765561214.18,
+        1765561214.281,
+        1765561214.381
+      ],
+      "freedom_response": "1. **Summary of Events Over the Past 0.9 Seconds:**\n   - The vehicle has been moving forward at a constant speed of 0 km/h as indicated by the speedometer on the screen.\n   - The road appears to be clear with no visible obstacles or pedestrians.\n   - The traffic light ahead shows a green signal, allowing vehicles to proceed.\n   - The environment seems to be a typical urban setting with trees lining the sides of the road.\n\n2. **Ego Vehicle's Action at the Current Frame:**\n   - The vehicle is stationary, as evidenced by the speedometer showing 0 km/h.",
+      "structured_response": "{\n  \"control_action\": \"go straight\",\n  \"turn_action\": \"none\",\n  \"lane_action\": \"none\",\n  \"motion_trend\": \"accelerating\",\n  \"reasoning\": \"The vehicle appears to be accelerating as it moves forward along the road. There are no signs of deceleration or stopping, and the vehicle maintains a consistent speed throughout the sequence.\"\n}"
+    },
+    {
+      "participant": "P11",
+      "scenario": "S3_rainy",
+      "target_frame_idx": 1259,
+      "target_timestamp": 1765561219.381,
+      "context_timestamps": [
+        1765561218.481,
+        1765561218.584,
+        1765561218.68,
+        1765561218.784,
+        1765561218.884,
+        1765561218.984,
+        1765561219.081,
+        1765561219.181,
+        1765561219.28,
+        1765561219.381
+      ],
+      "freedom_response": "### 1. Summary of Events Over the Past 0.9 Seconds:\n- **Motion Trend:** The vehicle appears to be maintaining a steady speed on the road. There is no significant change in speed or direction observed over the past 0.9 seconds.\n- **Road Conditions:** The road is wet, as indicated by the reflective surface and the presence of water puddles. The visibility is slightly reduced due to the wet conditions.\n- **Notable Events:** There are no abrupt changes or unusual events occurring. The vehicle seems to be following the road smoothly without any sudden maneuvers.\n\n### 2. Ego Vehicle's Action at",
+      "structured_response": "{\n  \"control_action\": \"move slowly\",\n  \"turn_action\": \"none\",\n  \"lane_action\": \"none\",\n  \"motion_trend\": \"decelerating\",\n  \"reasoning\": \"The vehicle appears to be slowing down as indicated by the decreasing speed from 11 mph to 8 mph over the last few frames.\"\n}"
+    },
+    {
+      "participant": "P11",
+      "scenario": "S3_rainy",
+      "target_frame_idx": 1309,
+      "target_timestamp": 1765561224.381,
+      "context_timestamps": [
+        1765561223.481,
+        1765561223.58,
+        1765561223.681,
+        1765561223.784,
+        1765561223.88,
+        1765561223.981,
+        1765561224.082,
+        1765561224.18,
+        1765561224.281,
+        1765561224.381
+      ],
+      "freedom_response": "1. **Summary of Events Over the Past 0.9 Seconds:**\n   - The vehicle has been traveling on a straight road with no significant changes in speed or direction.\n   - The road appears to be wet, as indicated by the reflections and the presence of water droplets on the windshield.\n   - There are no other vehicles or pedestrians visible in the immediate vicinity.\n   - The traffic signs indicate a speed limit of 30 km/h, which the vehicle is currently adhering to.\n\n2. **Ego Vehicle's Action at the Current Frame:**\n   - The vehicle is maintaining a steady speed of 21",
+      "structured_response": "{\n  \"control_action\": \"go straight\",\n  \"turn_action\": \"none\",\n  \"lane_action\": \"none\",\n  \"motion_trend\": \"accelerating\",\n  \"reasoning\": \"The vehicle appears to be accelerating as it moves forward along the road, indicated by the increasing speed displayed on the screen.\"\n}"
+    },
+    {
+      "participant": "P11",
+      "scenario": "S3_rainy",
+      "target_frame_idx": 1359,
+      "target_timestamp": 1765561229.38,
+      "context_timestamps": [
+        1765561228.484,
+        1765561228.582,
+        1765561228.68,
+        1765561228.781,
+        1765561228.885,
+        1765561228.98,
+        1765561229.08,
+        1765561229.18,
+        1765561229.281,
+        1765561229.38
+      ],
+      "freedom_response": "1. **Summary of Past 0.9 Seconds:**\n   - Over the past 0.9 seconds, the vehicle has been traveling on a straight road with minimal changes in speed or direction. The road appears to be clear with no visible obstacles or lane markings. The environment consists of trees and road signs, indicating a rural or suburban setting. The vehicle maintains a steady speed, as indicated by the consistent speedometer reading.\n\n2. **Ego Vehicle's Action at Current Frame:**\n   - At the current frame, the vehicle continues to drive straight ahead on the road. The speedometer shows a slight increase, suggesting that",
+      "structured_response": "{\n  \"control_action\": \"go straight\",\n  \"turn_action\": \"none\",\n  \"lane_action\": \"none\",\n  \"motion_trend\": \"accelerating\",\n  \"reasoning\": \"The vehicle appears to be accelerating as it moves forward along the road, indicated by the increasing speed displayed on the screen.\"\n}"
+    },
+    {
+      "participant": "P11",
+      "scenario": "S3_rainy",
+      "target_frame_idx": 1409,
+      "target_timestamp": 1765561234.381,
+      "context_timestamps": [
+        1765561233.48,
+        1765561233.58,
+        1765561233.68,
+        1765561233.78,
+        1765561233.881,
+        1765561233.981,
+        1765561234.08,
+        1765561234.183,
+        1765561234.281,
+        1765561234.381
+      ],
+      "freedom_response": "1. **Summary of Events Over the Past 0.9 Seconds:**\n   - The vehicle has been moving forward on a wet road, as indicated by the consistent position of the \"STOP\" sign and the slight changes in the road markings.\n   - The road appears to be wet, which could affect traction and braking distances.\n   - There are no visible pedestrians or other vehicles in the immediate vicinity, suggesting a relatively safe driving environment.\n\n2. **Ego Vehicle's Action at the Current Frame:**\n   - The vehicle is maintaining a steady speed, as indicated by the consistent distance marker \"3 m\" and the stable position",
+      "structured_response": "{\n  \"control_action\": \"stop\",\n  \"turn_action\": \"none\",\n  \"lane_action\": \"none\",\n  \"motion_trend\": \"decelerating\",\n  \"reasoning\": \"The vehicle appears to be coming to a complete stop as there is no visible movement or change in direction in the subsequent frames.\"\n}"
+    },
+    {
+      "participant": "P11",
+      "scenario": "S3_rainy",
+      "target_frame_idx": 1459,
+      "target_timestamp": 1765561239.383,
+      "context_timestamps": [
+        1765561238.48,
+        1765561238.58,
+        1765561238.681,
+        1765561238.781,
+        1765561238.88,
+        1765561238.98,
+        1765561239.081,
+        1765561239.18,
+        1765561239.28,
+        1765561239.383
+      ],
+      "freedom_response": "1. **Summary of Events Over the Past 0.9 Seconds:**\n   - The vehicle has been moving forward on a straight road for the past 0.9 seconds.\n   - The road appears to be clear with no visible obstacles or pedestrians.\n   - The environment seems to be a typical urban setting with buildings, trees, and street signs.\n\n2. **Ego Vehicle's Action at the Current Frame:**\n   - The vehicle is maintaining a steady speed, as indicated by the \"high\" speed indicator on the screen.\n   - The vehicle is following the road ahead without any abrupt changes in direction or speed.\n\n3",
+      "structured_response": "{\n  \"control_action\": \"move slowly\",\n  \"turn_action\": \"none\",\n  \"lane_action\": \"none\",\n  \"motion_trend\": \"decelerating\",\n  \"reasoning\": \"The vehicle appears to be slowing down as indicated by the decreasing distance to the road markings and the slight decrease in speed displayed on the HUD.\"\n}"
+    },
+    {
+      "participant": "P11",
+      "scenario": "S3_rainy",
+      "target_frame_idx": 1509,
+      "target_timestamp": 1765561244.38,
+      "context_timestamps": [
+        1765561243.481,
+        1765561243.58,
+        1765561243.681,
+        1765561243.78,
+        1765561243.88,
+        1765561243.98,
+        1765561244.082,
+        1765561244.181,
+        1765561244.281,
+        1765561244.38
+      ],
+      "freedom_response": "### 1. Summary of Events Over the Past 0.9 Seconds:\n- **Motion Trend:** The vehicle appears to be maintaining a steady speed on a straight road. There is no significant change in the vehicle's direction or speed observed over the past 0.9 seconds.\n- **Road Conditions:** The road is clear with visible lane markings, indicating good visibility. There are no signs of debris, potholes, or other obstacles that would require caution.\n- **Notable Events:** No significant events such as lane changes, turns, or sudden stops are observed. The vehicle seems to be following the road conditions smoothly.\n\n###",
+      "structured_response": "{\n  \"control_action\": \"move slowly\",\n  \"turn_action\": \"none\",\n  \"lane_action\": \"none\",\n  \"motion_trend\": \"decelerating\",\n  \"reasoning\": \"The vehicle appears to be slowing down as indicated by the decreasing speedometer reading and the slight decrease in the distance to the next point of interest.\"\n}"
+    },
+    {
+      "participant": "P11",
+      "scenario": "S3_rainy",
+      "target_frame_idx": 1559,
+      "target_timestamp": 1765561249.381,
+      "context_timestamps": [
+        1765561248.483,
+        1765561248.581,
+        1765561248.681,
+        1765561248.783,
+        1765561248.881,
+        1765561248.981,
+        1765561249.081,
+        1765561249.18,
+        1765561249.281,
+        1765561249.381
+      ],
+      "freedom_response": "1. **Summary of Past 0.9 Seconds:**\n   - Over the past 0.9 seconds, the vehicle has been traveling on a straight road with minimal changes in speed or direction. The road appears to be clear with no visible obstacles or pedestrians. The environment seems relatively calm, with no significant weather disturbances noted.\n\n2. **Ego Vehicle's Action at Current Frame:**\n   - At the current frame, the vehicle continues to drive straight ahead on the road. The speedometer indicates a steady speed of approximately 21 km/h, suggesting that the vehicle is maintaining a consistent pace without any abrupt acceleration or dec",
+      "structured_response": "{\n  \"control_action\": \"constant speed\",\n  \"turn_action\": \"none\",\n  \"lane_action\": \"none\",\n  \"motion_trend\": \"decelerating\",\n  \"reasoning\": \"The vehicle appears to be slowing down as indicated by the decreasing speedometer reading and the slight decrease in the distance to the next intersection.\"\n}"
+    },
+    {
+      "participant": "P11",
+      "scenario": "S3_rainy",
+      "target_frame_idx": 1609,
+      "target_timestamp": 1765561254.38,
+      "context_timestamps": [
+        1765561253.48,
+        1765561253.579,
+        1765561253.681,
+        1765561253.78,
+        1765561253.88,
+        1765561253.98,
+        1765561254.081,
+        1765561254.18,
+        1765561254.281,
+        1765561254.38
+      ],
+      "freedom_response": "1. **Summary of Events Over the Past 0.9 Seconds:**\n   - The vehicle has been driving straight on a road with a slight incline to the left.\n   - The road appears to be wet or covered with some debris, as there are visible reflections and slight disturbances on the surface.\n   - The surroundings include buildings on the left side and a green area on the right side, indicating a residential or mixed-use area.\n   - There are no other vehicles or pedestrians visible in the immediate vicinity.\n\n2. **Ego Vehicle's Action at the Current Frame:**\n   - The vehicle is maintaining a steady speed,",
+      "structured_response": "{\n  \"control_action\": \"go straight\",\n  \"turn_action\": \"none\",\n  \"lane_action\": \"none\",\n  \"motion_trend\": \"constant speed\",\n  \"reasoning\": \"The vehicle maintains a steady speed and direction throughout the sequence, indicating it is going straight without any indication of acceleration or deceleration.\"\n}"
+    },
+    {
+      "participant": "P11",
+      "scenario": "S3_rainy",
+      "target_frame_idx": 1659,
+      "target_timestamp": 1765561259.381,
+      "context_timestamps": [
+        1765561258.481,
+        1765561258.584,
+        1765561258.68,
+        1765561258.781,
+        1765561258.88,
+        1765561258.98,
+        1765561259.082,
+        1765561259.181,
+        1765561259.28,
+        1765561259.381
+      ],
+      "freedom_response": "1. **Summary of Events Over the Past 0.9 Seconds:**\n   - The vehicle has been traveling straight down a residential street for the past 0.9 seconds.\n   - The speedometer indicates a steady increase from approximately 7 km/h to 11 km/h.\n   - The road appears to be clear with no visible obstacles or pedestrians.\n   - The environment is relatively calm with no significant changes in weather or lighting.\n\n2. **Ego Vehicle's Action at the Current Frame:**\n   - The vehicle is maintaining a consistent speed of 11 km/h as it continues straight down the street.\n\n3",
+      "structured_response": "{\n  \"control_action\": \"constant speed\",\n  \"turn_action\": \"none\",\n  \"lane_action\": \"none\",\n  \"motion_trend\": \"decelerating\",\n  \"reasoning\": \"The vehicle appears to be slowing down as indicated by the decreasing distance to the road markings and the decreasing speed displayed on the HUD.\"\n}"
+    },
+    {
+      "participant": "P11",
+      "scenario": "S3_rainy",
+      "target_frame_idx": 1709,
+      "target_timestamp": 1765561264.381,
+      "context_timestamps": [
+        1765561263.48,
+        1765561263.586,
+        1765561263.696,
+        1765561263.781,
+        1765561263.88,
+        1765561263.981,
+        1765561264.08,
+        1765561264.181,
+        1765561264.285,
+        1765561264.381
+      ],
+      "freedom_response": "1. **Summary of Events Over the Past 0.9 Seconds:**\n   - The vehicle has been traveling on a straight road for the past 0.9 seconds.\n   - The road appears to be wet, as indicated by the reflections and the overall visibility.\n   - There are no significant changes in the road conditions or traffic patterns observed in these frames.\n\n2. **Ego Vehicle's Action at the Current Frame:**\n   - The vehicle is maintaining a steady speed of 26 km/h.\n   - The vehicle is following the road ahead without any abrupt maneuvers or lane changes.\n\n3. **Predicted Ego",
+      "structured_response": "{\n  \"control_action\": \"go straight\",\n  \"turn_action\": \"none\",\n  \"lane_action\": \"none\",\n  \"motion_trend\": \"decelerating\",\n  \"reasoning\": \"The vehicle appears to be slowing down as indicated by the decreasing speed display from 26 km/h to 25 km/h over the last few frames.\"\n}"
+    },
+    {
+      "participant": "P11",
+      "scenario": "S3_rainy",
+      "target_frame_idx": 1759,
+      "target_timestamp": 1765561269.38,
+      "context_timestamps": [
+        1765561268.48,
+        1765561268.583,
+        1765561268.681,
+        1765561268.781,
+        1765561268.88,
+        1765561268.981,
+        1765561269.081,
+        1765561269.18,
+        1765561269.281,
+        1765561269.38
+      ],
+      "freedom_response": "### 1. Summary of Events Over the Past 0.9 Seconds:\n- **Motion Trend:** The vehicle appears to be maintaining a steady speed on the road. There is no significant change in speed or direction observed over the past 0.9 seconds.\n- **Road Conditions:** The road is wet, as indicated by the reflective surface and the presence of water marks. The visibility is slightly reduced due to fog or mist, but the road markings are still clearly visible.\n- **Notable Events:** No other vehicles or pedestrians are visible in the frames provided. The environment remains consistent with no sudden changes or obstacles detected.\n\n###",
+      "structured_response": "{\n  \"control_action\": \"constant speed\",\n  \"turn_action\": \"none\",\n  \"lane_action\": \"none\",\n  \"motion_trend\": \"decelerating\",\n  \"reasoning\": \"The vehicle appears to be decelerating as indicated by the decreasing distance to the next intersection and the slight decrease in speed displayed on the HUD.\"\n}"
+    },
+    {
+      "participant": "P11",
+      "scenario": "S3_rainy",
+      "target_frame_idx": 1809,
+      "target_timestamp": 1765561274.381,
+      "context_timestamps": [
+        1765561273.481,
+        1765561273.581,
+        1765561273.681,
+        1765561273.78,
+        1765561273.881,
+        1765561273.98,
+        1765561274.08,
+        1765561274.18,
+        1765561274.28,
+        1765561274.381
+      ],
+      "freedom_response": "1. **Summary of Events Over the Past 0.9 Seconds:**\n   - The vehicle has been traveling on a straight road for the past 0.9 seconds.\n   - There have been no significant changes in the road conditions or traffic signs observed.\n   - The vehicle appears to be maintaining a steady speed, as indicated by the constant speed display (17 km/h).\n\n2. **Ego Vehicle's Action at the Current Frame:**\n   - The vehicle is currently traveling at a steady speed of 17 km/h.\n   - The vehicle is following the road ahead without any noticeable deviation or change in direction.",
+      "structured_response": "{\n  \"control_action\": \"go straight\",\n  \"turn_action\": \"none\",\n  \"lane_action\": \"none\",\n  \"motion_trend\": \"accelerating\",\n  \"reasoning\": \"The vehicle appears to be accelerating as it moves forward along the road. There are no signs of deceleration or stopping observed in the sequence.\"\n}"
+    },
+    {
+      "participant": "P11",
+      "scenario": "S3_rainy",
+      "target_frame_idx": 1859,
+      "target_timestamp": 1765561279.381,
+      "context_timestamps": [
+        1765561278.481,
+        1765561278.581,
+        1765561278.68,
+        1765561278.78,
+        1765561278.881,
+        1765561278.984,
+        1765561279.083,
+        1765561279.181,
+        1765561279.281,
+        1765561279.381
+      ],
+      "freedom_response": "1. **Summary of Events Over the Past 0.9 Seconds:**\n   - The vehicle has been traveling on a straight road for the past 0.9 seconds.\n   - There have been no significant changes in the road conditions or traffic.\n   - The vehicle appears to be maintaining a steady speed.\n\n2. **Ego Vehicle's Action at the Current Frame:**\n   - The vehicle is currently traveling at a constant speed of 19 km/h as indicated by the speedometer in the bottom right corner of the image.\n\n3. **Predicted Ego Vehicle's Next Action:**\n   - Given the consistent speed",
+      "structured_response": "{\n  \"control_action\": \"go straight\",\n  \"turn_action\": \"none\",\n  \"lane_action\": \"none\",\n  \"motion_trend\": \"accelerating\",\n  \"reasoning\": \"The vehicle appears to be accelerating as indicated by the increasing speed displayed on the screen. There are no signs of deceleration or stopping, and the vehicle maintains a consistent direction without any lane changes.\"\n}"
+    },
+    {
+      "participant": "P11",
+      "scenario": "S3_rainy",
+      "target_frame_idx": 1909,
+      "target_timestamp": 1765561284.38,
+      "context_timestamps": [
+        1765561283.48,
+        1765561283.58,
+        1765561283.681,
+        1765561283.783,
+        1765561283.881,
+        1765561283.984,
+        1765561284.082,
+        1765561284.181,
+        1765561284.292,
+        1765561284.38
+      ],
+      "freedom_response": "1. **Summary of Past 0.9 Seconds:**\n   - Over the past 0.9 seconds, the vehicle has been traveling on a straight road with minimal changes in speed or direction. The road appears to be wet, as indicated by the reflections and the presence of water droplets on the windshield. The surrounding environment includes a mix of trees and a rocky hillside, suggesting a rural or mountainous area. There are no significant obstacles or other vehicles visible in the immediate vicinity.\n\n2. **Ego Vehicle's Action at Current Frame:**\n   - At the current frame, the vehicle is maintaining a steady speed of",
+      "structured_response": "{\n  \"control_action\": \"move slowly\",\n  \"turn_action\": \"none\",\n  \"lane_action\": \"none\",\n  \"motion_trend\": \"decelerating\",\n  \"reasoning\": \"The vehicle appears to be slowing down as indicated by the decreasing speedometer reading and the consistent position of the vehicle on the road.\"\n}"
+    },
+    {
+      "participant": "P11",
+      "scenario": "S3_rainy",
+      "target_frame_idx": 1959,
+      "target_timestamp": 1765561289.385,
+      "context_timestamps": [
+        1765561288.48,
+        1765561288.581,
+        1765561288.684,
+        1765561288.781,
+        1765561288.88,
+        1765561288.981,
+        1765561289.08,
+        1765561289.184,
+        1765561289.281,
+        1765561289.385
+      ],
+      "freedom_response": "1. **Summary of Events Over the Past 0.9 Seconds:**\n   - The vehicle has been traveling on a snowy road for the past 0.9 seconds.\n   - The road appears to be wet or icy, as there are visible tire tracks and the road surface looks smooth but potentially slippery.\n   - The vehicle maintains a consistent speed, as indicated by the increasing speedometer reading from 13 km/h to 19 km/h.\n   - There are no significant changes in the road conditions or any other notable events observed in these frames.\n\n2. **Ego Vehicle's Action at the Current Frame:**",
+      "structured_response": "{\n  \"control_action\": \"go straight\",\n  \"turn_action\": \"none\",\n  \"lane_action\": \"none\",\n  \"motion_trend\": \"accelerating\",\n  \"reasoning\": \"The vehicle appears to be accelerating as it moves forward along the road. There are no signs of deceleration or stopping, and the vehicle maintains a consistent speed throughout the sequence.\"\n}"
+    },
+    {
+      "participant": "P11",
+      "scenario": "S3_rainy",
+      "target_frame_idx": 2009,
+      "target_timestamp": 1765561294.381,
+      "context_timestamps": [
+        1765561293.481,
+        1765561293.58,
+        1765561293.683,
+        1765561293.784,
+        1765561293.881,
+        1765561293.981,
+        1765561294.081,
+        1765561294.181,
+        1765561294.281,
+        1765561294.381
+      ],
+      "freedom_response": "1. **Summary of Events Over the Past 0.9 Seconds:**\n   - The vehicle has been traveling on a snow-covered road for the past 0.9 seconds.\n   - The road appears to be wet or icy, as there are visible patches of snow and slush on the road surface.\n   - The vehicle maintains a consistent speed, as indicated by the speedometer reading of 19 km/h.\n   - The surrounding environment consists of trees and possibly other vehicles, but they are not clearly visible due to the snowy conditions.\n\n2. **Ego Vehicle's Action at the Current Frame:**\n   - The",
+      "structured_response": "{\n  \"control_action\": \"go straight\",\n  \"turn_action\": \"none\",\n  \"lane_action\": \"none\",\n  \"motion_trend\": \"decelerating\",\n  \"reasoning\": \"The vehicle appears to be slowing down as indicated by the decreasing speedometer reading and the slight decrease in the distance to the next intersection.\"\n}"
+    },
+    {
+      "participant": "P11",
+      "scenario": "S3_rainy",
+      "target_frame_idx": 2059,
+      "target_timestamp": 1765561299.38,
+      "context_timestamps": [
+        1765561298.48,
+        1765561298.581,
+        1765561298.681,
+        1765561298.78,
+        1765561298.88,
+        1765561298.98,
+        1765561299.081,
+        1765561299.182,
+        1765561299.284,
+        1765561299.38
+      ],
+      "freedom_response": "1. **Summary of Past 0.9 Seconds:**\n   - Over the past 0.9 seconds, the vehicle has been driving on a wet road with moderate visibility due to fog or mist. The road appears to be straight with no significant obstacles or lane changes observed. The vehicle maintains a steady speed, as indicated by the consistent speed display (24-25 mph).\n\n2. **Ego Vehicle's Action at Current Frame:**\n   - At the current frame, the vehicle continues to drive straight ahead on the wet road. The speed remains stable at approximately 25 mph.\n\n3. **Predicted E",
+      "structured_response": "{\n  \"control_action\": \"move slowly\",\n  \"turn_action\": \"none\",\n  \"lane_action\": \"none\",\n  \"motion_trend\": \"decelerating\",\n  \"reasoning\": \"The vehicle appears to be slowing down as indicated by the decreasing speed reading from 24 km/h to 25 km/h over the last few frames.\"\n}"
+    },
+    {
+      "participant": "P11",
+      "scenario": "S3_rainy",
+      "target_frame_idx": 2109,
+      "target_timestamp": 1765561304.381,
+      "context_timestamps": [
+        1765561303.481,
+        1765561303.58,
+        1765561303.684,
+        1765561303.78,
+        1765561303.882,
+        1765561303.981,
+        1765561304.08,
+        1765561304.181,
+        1765561304.281,
+        1765561304.381
+      ],
+      "freedom_response": "1. **Summary of Past 0.9 Seconds:**\n   - Over the past 0.9 seconds, the vehicle has been traveling on a snow-covered road with moderate visibility due to fog or mist. The road appears to be straight with no significant obstacles or lane markings visible. The vehicle maintains a consistent speed of approximately 25 km/h, as indicated by the speedometer in the lower right corner of the image.\n\n2. **Ego Vehicle's Action at Current Frame:**\n   - At the current frame, the vehicle continues to drive straight ahead on the snow-covered road. There are no immediate signs of lane changes",
+      "structured_response": "{\n  \"control_action\": \"go straight\",\n  \"turn_action\": \"none\",\n  \"lane_action\": \"none\",\n  \"motion_trend\": \"accelerating\",\n  \"reasoning\": \"The vehicle appears to be accelerating as it moves forward along the road. There are no signs of deceleration or stopping, and the vehicle maintains a consistent speed throughout the sequence.\"\n}"
+    },
+    {
+      "participant": "P11",
+      "scenario": "S3_rainy",
+      "target_frame_idx": 2159,
+      "target_timestamp": 1765561309.381,
+      "context_timestamps": [
+        1765561308.482,
+        1765561308.581,
+        1765561308.681,
+        1765561308.78,
+        1765561308.88,
+        1765561308.981,
+        1765561309.08,
+        1765561309.181,
+        1765561309.281,
+        1765561309.381
+      ],
+      "freedom_response": "### 1. Summary of Events Over the Past 0.9 Seconds\n\n- **Motion Trend:** The vehicle appears to be moving forward at a steady pace. There is no significant change in speed or direction observed over the past 0.9 seconds.\n- **Road Conditions:** The road is wet and covered with snow, indicating recent snowfall or ongoing snow accumulation. Visibility is slightly reduced due to the foggy conditions.\n- **Notable Events:** There are no immediate events such as traffic, pedestrians, or other vehicles visible in the frames. The environment remains consistent with a quiet, snowy street.\n\n### 2. Ego",
+      "structured_response": "{\n  \"control_action\": \"constant speed\",\n  \"turn_action\": \"none\",\n  \"lane_action\": \"none\",\n  \"motion_trend\": \"accelerating\",\n  \"reasoning\": \"The vehicle appears to be accelerating as indicated by the increasing speedometer reading from 27 km/h to 30 km/h over the last 10 frames.\"\n}"
+    },
+    {
+      "participant": "P11",
+      "scenario": "S3_rainy",
+      "target_frame_idx": 2209,
+      "target_timestamp": 1765561314.38,
+      "context_timestamps": [
+        1765561313.481,
+        1765561313.581,
+        1765561313.68,
+        1765561313.78,
+        1765561313.881,
+        1765561313.983,
+        1765561314.08,
+        1765561314.18,
+        1765561314.28,
+        1765561314.38
+      ],
+      "freedom_response": "1. **Summary of Past 0.9 Seconds:**\n   - Over the past 0.9 seconds, the vehicle has been driving on a snowy road. The road appears to be wet or icy, as there are visible patches of snow on the ground. The vehicle maintains a consistent speed, as indicated by the speedometer reading of 42 km/h. The environment is foggy, which suggests reduced visibility. There are no significant changes in the road conditions or traffic patterns observed during this period.\n\n2. **Ego Vehicle's Action at Current Frame:**\n   - At the current frame, the vehicle continues to drive",
+      "structured_response": "{\n  \"control_action\": \"go straight\",\n  \"turn_action\": \"none\",\n  \"lane_action\": \"none\",\n  \"motion_trend\": \"accelerating\",\n  \"reasoning\": \"The vehicle appears to be accelerating as indicated by the increasing speed reading from 41 km/h to 42 km/h over the last few frames.\"\n}"
+    },
+    {
+      "participant": "P11",
+      "scenario": "S3_rainy",
+      "target_frame_idx": 2259,
+      "target_timestamp": 1765561319.383,
+      "context_timestamps": [
+        1765561318.481,
+        1765561318.581,
+        1765561318.68,
+        1765561318.784,
+        1765561318.88,
+        1765561318.98,
+        1765561319.081,
+        1765561319.181,
+        1765561319.281,
+        1765561319.383
+      ],
+      "freedom_response": "1. **Summary of Events Over the Past 0.9 Seconds:**\n   - The vehicle has been moving steadily on a wet road, as indicated by the consistent speed reading of around 25 km/h.\n   - The road appears to be wet, which could affect traction and braking distances.\n   - There are no visible pedestrians or other vehicles in the immediate vicinity, suggesting a relatively safe driving environment.\n\n2. **Ego Vehicle's Action at the Current Frame:**\n   - The vehicle is maintaining a steady speed of approximately 25 km/h.\n   - The steering wheel is centered, indicating that the driver is keeping",
+      "structured_response": "{\n  \"control_action\": \"move slowly\",\n  \"turn_action\": \"none\",\n  \"lane_action\": \"none\",\n  \"motion_trend\": \"decelerating\",\n  \"reasoning\": \"The vehicle appears to be slowing down as indicated by the decreasing speedometer reading and the consistent position on the road.\"\n}"
+    },
+    {
+      "participant": "P11",
+      "scenario": "S3_rainy",
+      "target_frame_idx": 2309,
+      "target_timestamp": 1765561324.38,
+      "context_timestamps": [
+        1765561323.482,
+        1765561323.58,
+        1765561323.68,
+        1765561323.782,
+        1765561323.881,
+        1765561323.98,
+        1765561324.081,
+        1765561324.18,
+        1765561324.283,
+        1765561324.38
+      ],
+      "freedom_response": "1. **Summary of Events Over the Past 0.9 Seconds:**\n   - The vehicle has been traveling straight on a road with no significant changes in speed or direction observed in the past 0.9 seconds.\n   - The road appears to be clear with no visible obstacles or pedestrians.\n   - The weather conditions seem to be consistent, with no signs of rain or fog affecting visibility.\n\n2. **Ego Vehicle's Action at the Current Frame:**\n   - The ego vehicle is maintaining a steady speed and heading straight ahead on the road.\n\n3. **Predicted Ego Vehicle's Next Action:**\n   - Given",
+      "structured_response": "{\n  \"control_action\": \"go straight\",\n  \"turn_action\": \"none\",\n  \"lane_action\": \"none\",\n  \"motion_trend\": \"constant speed\",\n  \"reasoning\": \"The vehicle appears to be maintaining a steady speed and direction throughout the sequence, indicating it is going straight without any noticeable acceleration or deceleration.\"\n}"
+    },
+    {
+      "participant": "P11",
+      "scenario": "S3_rainy",
+      "target_frame_idx": 2359,
+      "target_timestamp": 1765561329.38,
+      "context_timestamps": [
+        1765561328.483,
+        1765561328.58,
+        1765561328.684,
+        1765561328.78,
+        1765561328.881,
+        1765561328.981,
+        1765561329.08,
+        1765561329.181,
+        1765561329.281,
+        1765561329.38
+      ],
+      "freedom_response": "1. **Summary of Events Over the Past 0.9 Seconds:**\n   - The vehicle has been moving steadily forward on a straight road with no significant changes in speed or direction.\n   - The road appears to be clear with no visible obstacles or pedestrians.\n   - The traffic light ahead is red, indicating that the vehicle should stop.\n\n2. **Ego Vehicle's Action at the Current Frame:**\n   - The vehicle is stationary at the red traffic light.\n\n3. **Predicted Ego Vehicle's Next Action:**\n   - The vehicle is likely to stop at the red traffic light and wait for the signal to change",
+      "structured_response": "{\n  \"control_action\": \"go straight\",\n  \"turn_action\": \"none\",\n  \"lane_action\": \"none\",\n  \"motion_trend\": \"constant speed\",\n  \"reasoning\": \"The vehicle appears to be moving steadily forward without any indication of acceleration or deceleration. There are no signs of lane changes or turns in the sequence.\"\n}"
+    },
+    {
+      "participant": "P11",
+      "scenario": "S3_rainy",
+      "target_frame_idx": 2409,
+      "target_timestamp": 1765561334.38,
+      "context_timestamps": [
+        1765561333.481,
+        1765561333.581,
+        1765561333.68,
+        1765561333.783,
+        1765561333.881,
+        1765561333.98,
+        1765561334.081,
+        1765561334.181,
+        1765561334.283,
+        1765561334.38
+      ],
+      "freedom_response": "1. **Summary of Events Over the Past 0.9 Seconds:**\n   - The vehicle has been stationary for the past 0.9 seconds, as indicated by the consistent speed display of 0 mph.\n   - There have been no significant changes in the environment or road conditions observed in these frames.\n   - The traffic light remains red throughout this period, suggesting that the vehicle is waiting for it to change.\n\n2. **Ego Vehicle's Action at the Current Frame:**\n   - The ego vehicle is currently stationary, as evidenced by the speed display showing 0 mph.\n\n3. **Predicted Ego Vehicle's",
+      "structured_response": "{\n  \"control_action\": \"go straight\",\n  \"turn_action\": \"none\",\n  \"lane_action\": \"none\",\n  \"motion_trend\": \"constant speed\",\n  \"reasoning\": \"The vehicle appears to be moving steadily forward without any indication of acceleration or deceleration. There are no signs of lane changes or turns, suggesting that the vehicle is maintaining a straight path.\"\n}"
+    },
+    {
+      "participant": "P11",
+      "scenario": "S3_rainy",
+      "target_frame_idx": 2459,
+      "target_timestamp": 1765561339.381,
+      "context_timestamps": [
+        1765561338.481,
+        1765561338.58,
+        1765561338.681,
+        1765561338.78,
+        1765561338.881,
+        1765561338.98,
+        1765561339.081,
+        1765561339.182,
+        1765561339.28,
+        1765561339.381
+      ],
+      "freedom_response": "1. **Summary of Events Over the Past 0.9 Seconds:**\n   - The vehicle has been traveling on a straight road with a slight incline on the right side.\n   - The speedometer indicates a steady increase in speed from approximately 15 km/h to around 19 km/h.\n   - The road appears to be wet or slippery, as there are visible reflections and the road markings are slightly blurred.\n   - There are no significant changes in the road conditions or traffic, suggesting a smooth and consistent journey.\n\n2. **Ego Vehicle's Action at the Current Frame:**\n   - The vehicle is maintaining",
+      "structured_response": "{\n  \"control_action\": \"accelerating\",\n  \"turn_action\": \"none\",\n  \"lane_action\": \"none\",\n  \"motion_trend\": \"accelerating\",\n  \"reasoning\": \"The vehicle is consistently accelerating as indicated by the increasing speed displayed on the HUD. There are no signs of deceleration or stopping.\"\n}"
+    },
+    {
+      "participant": "P11",
+      "scenario": "S3_rainy",
+      "target_frame_idx": 2509,
+      "target_timestamp": 1765561344.381,
+      "context_timestamps": [
+        1765561343.48,
+        1765561343.583,
+        1765561343.68,
+        1765561343.781,
+        1765561343.88,
+        1765561343.981,
+        1765561344.08,
+        1765561344.183,
+        1765561344.28,
+        1765561344.381
+      ],
+      "freedom_response": "1. **Summary of Past 0.9 Seconds:**\n   - Over the past 0.9 seconds, the vehicle has been traveling on a wet road with visible water splashes on the surface. The road appears to be slightly slippery, as indicated by the presence of water and the slight wobbling of the vehicle. The road is lined with trees and houses, suggesting a suburban or rural setting. The vehicle's speed is relatively constant at around 25 km/h, as indicated by the speedometer display.\n\n2. **Ego Vehicle's Action at Current Frame:**\n   - At the current frame, the vehicle",
+      "structured_response": "{\n  \"control_action\": \"go straight\",\n  \"turn_action\": \"none\",\n  \"lane_action\": \"none\",\n  \"motion_trend\": \"constant speed\",\n  \"reasoning\": \"The vehicle maintains a steady speed and direction throughout the sequence, indicating it is going straight without any noticeable acceleration or deceleration.\"\n}"
+    },
+    {
+      "participant": "P11",
+      "scenario": "S3_rainy",
+      "target_frame_idx": 2559,
+      "target_timestamp": 1765561349.381,
+      "context_timestamps": [
+        1765561348.482,
+        1765561348.581,
+        1765561348.68,
+        1765561348.78,
+        1765561348.88,
+        1765561348.984,
+        1765561349.08,
+        1765561349.18,
+        1765561349.281,
+        1765561349.381
+      ],
+      "freedom_response": "1. **Summary of Events Over the Past 0.9 Seconds:**\n   - The vehicle has been driving straight on a wet road for the past 0.9 seconds.\n   - The road appears to be wet, as indicated by the reflections and the presence of water droplets on the windshield.\n   - The vehicle maintains a consistent speed, as evidenced by the decreasing distance marker from 24 km/h to 7 km/h.\n   - There are no significant changes in the road markings or traffic signs visible in the frames.\n\n2. **Ego Vehicle's Action at the Current Frame:**\n   - The vehicle is",
+      "structured_response": "{\n  \"control_action\": \"stop\",\n  \"turn_action\": \"none\",\n  \"lane_action\": \"none\",\n  \"motion_trend\": \"decelerating\",\n  \"reasoning\": \"The vehicle appears to be approaching a stop sign and has come to a complete stop as indicated by the consistent deceleration and the presence of the stop sign in the final frame.\"\n}"
+    }
+  ]
+}
