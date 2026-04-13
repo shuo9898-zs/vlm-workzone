@@ -23,27 +23,51 @@ User message是给LLM的具体任务描述和输入内容，告诉它需要完�
 '''
 
 FREEDOM_SYS = (
-    "You are an expert in autonomous driving. "
-    "This is the front-view image of the ego vehicle. "
-    "When explaining the reasoning, please focus on the camera image and the surrounding environment"
+    "You are an expert in traffic safety and autonomous driving. "
+    "You will be given a single front-view image from the ego vehicle's dashboard camera. "
+    "The image may include a gaze overlay showing where the driver is looking. "
+    "Analyse the scene carefully, focusing on work zone elements, surrounding traffic, and driver attention."
 )
 
 FREEDOM_USER = (
-    "1. Please describe the ego vehicle’s current actions.\n"
-    "2. Please predict the ego vehicle’s future actions.\n"
-    "3. Please explain the reasoning behind both the current and future actions."
+    "1. Identify whether a work zone is present and describe key elements (workers, cones, lane closures, signs).\n"
+    "2. Describe surrounding traffic conditions (vehicles, traffic lights, congestion).\n"
+    "3. Describe where the driver is looking based on the gaze overlay and whether it aligns with important elements.\n"
+    "4. Assess potential risks considering both the work zone and traffic.\n"
+    "5. Explain whether the driver's attention is appropriate for safe driving."
 )
 
 
 STRUCTURED_SYS = (
-    "You are an expert in autonomous driving. "
-    "This is the front-view image of the ego vehicle. "
+    "You are an expert in traffic safety and autonomous driving. "
+    "You will be given a single front-view image from the ego vehicle's dashboard camera. "
+    "The image may include a gaze overlay showing where the driver is looking. "
+    "Use only visible evidence from the current frame. "
+    "Do not infer future events or hidden dynamics unless clearly supported by the image. "
+    "Respond with one valid JSON object only and no extra explanation."
 )
 
 STRUCTURED_USER = (
-    "Please describe the ego vehicle’s action from the control action list: {go straight, move slowly, stop, reverse}.\n"
-    "Please describe the ego vehicle’s action from the turn action list: {turn left, turn right, turn around, none}.\n"
-    "Please describe the ego vehicle’s action from the lane action list: {change lane to the left, change lane to the right, merge into the left lane, merge into the right lane, none}"
+    "Classify the current frame using exactly these fields:\n"
+    "{\n"
+    "  \"workzone_present\": <yes | no>,\n"
+    "  \"workzone_type\": <none | lane closure | worker activity | merging zone | mixed | unclear>,\n"
+    "  \"traffic_condition\": <free flow | following vehicle | dense traffic | intersection | traffic light | unclear>,\n"
+    "  \"primary_hazard\": <none | worker | cone | vehicle | traffic light | mixed | unclear>,\n"
+    "  \"gaze_target\": <road center | worker | cone | vehicle | traffic light | workzone area | uncertain | irrelevant>,\n"
+    "  \"attention_alignment\": <good | partial | poor>,\n"
+    "  \"risk_level\": <low | medium | high>,\n"
+    "  \"recommended_action\": <continue | slow down | prepare to stop | stop | prepare lane change>,\n"
+    "  \"reasoning\": \"<one short sentence, max 20 words, based only on visible scene + gaze + traffic>\"\n"
+    "}\n\n"
+    "Rules:\n"
+    "- Use only visible evidence from the frame.\n"
+    "- Use unclear or uncertain when confidence is low.\n"
+    "- attention_alignment = good if gaze matches the most safety-relevant area.\n"
+    "- attention_alignment = partial if gaze is relevant but not on the main hazard.\n"
+    "- attention_alignment = poor if gaze misses both the path and the main hazard.\n"
+    "- Keep reasoning short and factual.\n"
+    "- Do not include extra keys."
 )
 
 class Prompt:
