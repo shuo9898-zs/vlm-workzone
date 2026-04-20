@@ -1,0 +1,39 @@
+# Model checkpoints & weights
+BC/vanilla_bc/checkpoints/
+checkpoints/
+*.pth
+*.ckpt
+*.pt
+
+# Training logs & results
+BC/vanilla_bc/logs/
+BC/vanilla_bc/results/
+logs/
+results/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual envs
+venv/
+.env/
+*.egg-info/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large data files
+*.jpg
+*.jpeg
+*.png
+*.mp4
+*.avi
+*.jsonl
